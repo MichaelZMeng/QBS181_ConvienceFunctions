@@ -1,0 +1,28 @@
+\documentclass[a4paper]{book}
+\usepackage[times,inconsolata,hyper]{Rd}
+\usepackage{makeidx}
+\usepackage[latin1]{inputenc} % @SET ENCODING@
+% \usepackage{graphicx} % @USE GRAPHICX@
+\makeindex{}
+\begin{document}
+\chapter*{}
+\begin{center}
+{\textbf{\huge Package `ConvenienceFunctions'}}
+\par\bigskip{\large \today}
+\end{center}
+\ifthenelse{\boolean{Rd@use@hyper}}{\hypersetup{pdftitle = {ConvenienceFunctions: Convenience functions for R for QBS181.}}}{}\ifthenelse{\boolean{Rd@use@hyper}}{\hypersetup{pdfauthor = {Michael Meng}}}{}\begin{description}
+\raggedright{}
+\item[Type]\AsIs{Package}
+\item[Title]\AsIs{Convenience functions for R for QBS181.}
+\item[Version]\AsIs{0.1.0}
+\item[Author]\AsIs{Michael Meng}
+\item[Description]\AsIs{We provide general utilities for common tasks in the R program}
+\item[License]\AsIs{MIT}
+\item[Depends]\AsIs{R (>= 3.5.0)}
+\item[Emcoding]\AsIs{UTF-8}
+\item[LazyData]\AsIs{true}
+\item[Imports]\AsIs{stats,
+ggplot2}
+\item[RoxygenNote]\AsIs{7.1.2}
+\end{description}
+\Rdcontents{\R{} topics documented:}

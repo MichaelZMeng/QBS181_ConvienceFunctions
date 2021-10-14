@@ -1,0 +1,19 @@
+Package: ConvenienceFunctions
+Type: Package
+Title: Convenience functions for R for QBS181.
+Version: 0.1.0
+Author: Michael Meng 
+Authors@R: person("Michael", "Meng", email="michael.z.meng.gr@dartmouth.edu",role = c("aut", "cre"))
+Description: We provide general utilities for common tasks in the R program
+License: MIT
+Depends: R (>= 3.5.0)
+Emcoding: UTF-8
+LazyData: true
+Imports:
+  stats,
+  ggplot2
+RoxygenNote: 7.1.2
+
+
+
+
